@@ -326,3 +326,38 @@ h1, h2, h3 {
     line-height: 1.5;
 }
 
+.camp {
+    padding: 90px 0;
+    background-color: #111318;
+    color: white;
+}
+
+.camp-contingut {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.camp-contingut > div {
+    flex: 1;
+}
+
+.camp .etiqueta {
+    color: #b5b4bc;
+}
+
+.camp-numero {
+    margin: 20px 0 0;
+    font-size: 85px;
+}
+
+.camp h2 {
+    font-size: 35px;
+}
+
+.camp-text > p:not(.text-gran) {
+    color: #c0bfc6;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
