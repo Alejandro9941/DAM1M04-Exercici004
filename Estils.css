@@ -315,3 +315,14 @@ h1, h2, h3 {
     background-color: white;
 }
 
+.valor-numero {
+    margin: 25px 0 12px;
+    font-size: 43px;
+}
+
+.valor-targeta p:last-child {
+    color: #68666d;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
