@@ -632,3 +632,52 @@ h1, h2, h3 {
     color: #68666d;
 }
 
+.peu {
+    padding: 45px 0 25px;
+    background-color: #14171c;
+    color: white;
+}
+
+.confiança {
+    display: flex;
+    gap: 25px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #41434a;
+}
+
+.confiança div {
+    flex: 1;
+}
+
+.confiança .etiqueta {
+    color: #b5b4bc;
+}
+
+.peu-baix {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 28px;
+}
+
+.logo-peu {
+    color: white;
+}
+
+.logo-peu img {
+    filter: brightness(0) invert(1);
+}
+
+.menu-peu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.copyright {
+    margin: 25px 0 0;
+    color: #b5b4bc;
+    font-size: 11px;
+}
+
