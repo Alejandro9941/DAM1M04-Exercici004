@@ -87,3 +87,13 @@ h1, h2, h3 {
     height: 25px;
 }
 
+.menu {
+    display: flex;
+    gap: 25px;
+}
+
+.menu a,
+.menu-peu a {
+    font-size: 13px;
+}
+
