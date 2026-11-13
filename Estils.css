@@ -681,3 +681,128 @@ h1, h2, h3 {
     font-size: 11px;
 }
 
+@media (max-width: 767px) {
+
+    .seccio,
+    .camp {
+        padding: 65px 0;
+    }
+
+    .capcalera-contingut {
+        flex-wrap: wrap;
+        padding: 12px 0;
+    }
+
+    .menu {
+        order: 3;
+        width: 100%;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .menu a {
+        font-size: 11px;
+    }
+
+    .boto {
+        padding: 11px 14px;
+        font-size: 11px;
+    }
+
+    .hero {
+        padding: 65px 0;
+    }
+
+    .hero-graph {
+        display: none !important;
+    }
+
+    .hero-contingut,
+    .valor-contingut,
+    .camp-contingut,
+    .atlas-contingut {
+        flex-direction: column;
+    }
+
+    .hero h1 {
+        font-size: 43px;
+    }
+
+    .titol-seccio h2,
+    .valor-text h2,
+    .atlas-capcalera h2,
+    .demo h2 {
+        font-size: 32px;
+    }
+
+    .targetes,
+    .valor-targetes,
+    .nodes,
+    .confiança {
+        flex-direction: column;
+    }
+
+    .targeta p:not(.etiqueta) {
+        min-height: 0;
+    }
+
+    .core {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .missatge p {
+        font-size: 21px;
+    }
+
+    .camp-numero {
+        font-size: 65px;
+    }
+
+    .fitxa-camp {
+        flex-direction: column;
+    }
+
+    .workflow {
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .workflow > .etiqueta {
+        width: 100%;
+    }
+
+    .workflow div {
+        width: 80%;
+    }
+
+    .execucio-passos {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .execucio-passos > .fletxa {
+        display: none;
+    }
+
+    .peu-baix {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .menu a {
+        font-size: 9px;
+    }
+
+    .missatge p {
+        font-size: 18px;
+    }
+}
+
