@@ -251,3 +251,26 @@ h1, h2, h3 {
     font-weight: bold;
 }
 
+.core {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 18px;
+    padding: 23px 28px;
+    border: 1px solid #e0dddc;
+    border-radius: 13px;
+    background-color: #f2f0ed;
+}
+
+.core h3 {
+    margin: 8px 0 0;
+}
+
+.core > p {
+    max-width: 600px;
+    margin: 0;
+    color: #68666d;
+    font-size: 14px;
+}
+
