@@ -97,3 +97,19 @@ h1, h2, h3 {
     font-size: 13px;
 }
 
+.boto {
+    display: inline-block;
+    padding: 13px 19px;
+    border-radius: 25px;
+    font-size: 13px;
+}
+
+.boto-negre {
+    background-color: #222226;
+    color: white;
+}
+
+.boto-blanc {
+    border: 1px solid #d9d7d5;
+    background-color: white;
+}
