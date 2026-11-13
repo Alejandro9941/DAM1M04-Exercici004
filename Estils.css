@@ -33,3 +33,13 @@ h1, h2, h3, p {
 h1, h2, h3 {
     font-weight: 500;
 }
+
+.container {
+    width: 90%;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.seccio {
+    padding: 90px 0;
+}
