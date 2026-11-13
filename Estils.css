@@ -285,3 +285,33 @@ h1, h2, h3 {
     font-size: 26px;
 }
 
+.valor-contingut {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.valor-text {
+    flex: 1;
+}
+
+.valor-text > p:last-child {
+    color: #66636b;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.valor-targetes {
+    flex: 1.4;
+    display: flex;
+    gap: 15px;
+}
+
+.valor-targeta {
+    flex: 1;
+    padding: 25px;
+    border: 1px solid #e0dddc;
+    border-radius: 13px;
+    background-color: white;
+}
+
