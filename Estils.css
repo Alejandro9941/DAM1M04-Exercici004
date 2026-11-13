@@ -613,3 +613,22 @@ h1, h2, h3 {
     font-size: 12px;
 }
 
+.demo {
+    padding: 100px 0;
+    background: linear-gradient(110deg, #f2e2e2, #ece7f1, #e8edf4);
+    text-align: center;
+}
+
+.demo-contingut {
+    max-width: 700px;
+}
+
+.demo h2 {
+    margin: 20px 0;
+}
+
+.demo-contingut > p:not(.etiqueta) {
+    margin-bottom: 25px;
+    color: #68666d;
+}
+
