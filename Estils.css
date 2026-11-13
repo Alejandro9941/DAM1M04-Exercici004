@@ -387,3 +387,39 @@ h1, h2, h3 {
     color: #b5b4bc;
 }
 
+.llista-workflows {
+    border-top: 1px solid #dedcda;
+}
+
+.workflow {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 25px 5px;
+    border-bottom: 1px solid #dedcda;
+}
+
+.workflow > .etiqueta {
+    width: 180px;
+    flex-shrink: 0;
+}
+
+.workflow div {
+    flex: 1;
+}
+
+.workflow h3 {
+    margin: 0 0 7px;
+    font-size: 20px;
+}
+
+.workflow p {
+    margin: 0;
+    color: #68666d;
+    font-size: 13px;
+}
+
+.fletxa {
+    font-size: 22px;
+}
+
