@@ -274,3 +274,14 @@ h1, h2, h3 {
     font-size: 14px;
 }
 
+.missatge {
+    padding: 55px 0;
+    background: linear-gradient(100deg, #f1e2df, #f1e9f3, #e9edf4);
+    text-align: center;
+}
+
+.missatge p {
+    margin: 0;
+    font-size: 26px;
+}
+
