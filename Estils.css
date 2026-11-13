@@ -806,3 +806,10 @@ h1, h2, h3 {
     }
 }
 
+.hero-graph {
+        display: none !important;
+    }
+
+    html {
+        scroll-behavior: auto;
+    }
