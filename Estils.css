@@ -482,3 +482,22 @@ h1, h2, h3 {
     font-size: 12px;
 }
 
+.consulta {
+    margin-top: 25px;
+    padding: 25px;
+    border: 1px solid #dedbd8;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.consulta-pregunta {
+    margin: 18px 0 10px;
+    font-size: 19px;
+}
+
+.consulta > p:last-child {
+    margin-bottom: 0;
+    color: #68666d;
+    font-size: 13px;
+}
+
