@@ -221,3 +221,33 @@ h1, h2, h3 {
     text-align: left;
 }
 
+.targetes {
+    display: flex;
+    gap: 18px;
+}
+
+.targeta {
+    flex: 1;
+    padding: 28px;
+    border: 1px solid #e0dddc;
+    border-radius: 13px;
+    background-color: white;
+}
+
+.targeta h3 {
+    font-size: 25px;
+    margin: 25px 0 12px;
+}
+
+.targeta p:not(.etiqueta) {
+    min-height: 75px;
+    font-size: 14px;
+    color: #68666d;
+    line-height: 1.7;
+}
+
+.targeta a {
+    font-size: 13px;
+    font-weight: bold;
+}
+
