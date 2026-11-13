@@ -181,3 +181,18 @@ h1, h2, h3 {
     margin-top: 25px;
 }
 
+.hero-producte {
+    flex: 1;
+    padding: 18px;
+    border: 1px solid #e7e2e3;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.hero-producte img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
