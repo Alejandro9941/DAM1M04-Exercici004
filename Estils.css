@@ -601,3 +601,15 @@ h1, h2, h3 {
     font-family: 'JetBrains Mono', monospace;
 }
 
+.garanties {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+    margin-top: 15px;
+    padding: 18px;
+    background-color: #f0eeeb;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
