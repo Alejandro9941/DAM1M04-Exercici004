@@ -43,3 +43,16 @@ h1, h2, h3 {
 .seccio {
     padding: 90px 0;
 }
+
+.etiqueta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: #77747b;
+}
+
+.degradat {
+    background: linear-gradient(90deg, #2eb872, #2486e8, #a82bd4, #e85494);
+    color: transparent;
+    background-clip: text;
+}
