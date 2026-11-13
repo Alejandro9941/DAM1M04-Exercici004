@@ -529,3 +529,17 @@ h1, h2, h3 {
     font-family: inherit;
 }
 
+.governanca-targetes .targeta {
+    min-height: 180px;
+}
+
+.governanca-targeta h3 {
+    margin-top: 5px;
+}
+
+.governanca-targeta p {
+    color: #68666d;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
