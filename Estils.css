@@ -501,3 +501,31 @@ h1, h2, h3 {
     font-size: 13px;
 }
 
+.nodes {
+    display: flex;
+    gap: 18px;
+    margin-top: 18px;
+}
+
+.node {
+    flex: 1;
+    padding: 22px;
+    border: 1px solid #dedbd8;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.node label {
+    display: block;
+    margin: 15px 0 7px;
+    font-size: 12px;
+}
+
+.node input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d8d5d2;
+    border-radius: 6px;
+    font-family: inherit;
+}
+
