@@ -361,3 +361,29 @@ h1, h2, h3 {
     line-height: 1.7;
 }
 
+.fitxa-camp {
+    display: flex;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.fitxa-camp div {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #41434a;
+    border-radius: 9px;
+}
+
+.fitxa-camp strong,
+.fitxa-camp small {
+    display: block;
+}
+
+.fitxa-camp strong {
+    margin: 12px 0 5px;
+}
+
+.fitxa-camp small {
+    color: #b5b4bc;
+}
+
